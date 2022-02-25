@@ -3,11 +3,9 @@ const senha = document.querySelector('#senha');
 const botao = document.querySelector('#btn');
 
 botao.addEventListener('click', function() {
-    if (email.value === 'trybe@teste.com' && senha.value === 123456) {
+    if (email.value === 'tryber@teste.com' && senha.value === '123456') {
         alert("Olá, Tryber!");
     } else {
         alert ("Email ou senha inválidos.");
     }
 });
-
-

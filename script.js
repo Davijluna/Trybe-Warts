@@ -3,7 +3,6 @@ const senha = document.querySelector('#senha');
 const botao = document.querySelector('#btn');
 const botaoInput = document.querySelector('#submit-btn');
 const checkbox = document.querySelector('#agreement');
-
 botao.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
@@ -12,13 +11,11 @@ botao.addEventListener('click', () => {
   }
 });
 
-function validar(){
-  if(checkbox.checked){
+function validar() {
+  if (checkbox.checked) {
     botaoInput.disabled = false;
-  }else{
-    botaoInput.disabled = true; 
+  } else {
+    botaoInput.disabled = true;
   }
-
-};
-
+}
 checkbox.addEventListener('click', validar);

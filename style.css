@@ -45,6 +45,10 @@
   border: none;
 }
 
+.grupo {
+  border: none;
+}
+
 #btn {
   color: white;
   background: rgb(38, 1, 93);
@@ -70,8 +74,11 @@
 
 main {
   display: flex;
-  background-image: url('./img/hogwarts-castle-harry-potter-osaka.jpg');
+  /* background-image: url('./img/hogwarts-castle-harry-potter-osaka.jpg'); */
+  /* background-size: cover;
   background-repeat: no-repeat;
+  background-position: center; */
+  /* height: 100%; */
 }
 
 .transparent {
@@ -97,7 +104,10 @@ main {
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  /* position: relative; */
+  /* top: 25%;
+  left: 50%; */
+  width: 500px;
 }
 
 .flex-col {

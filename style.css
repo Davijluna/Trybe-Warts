@@ -70,6 +70,8 @@
 
 main {
   display: flex;
+  background-image: url('./img/hogwarts-castle-harry-potter-osaka.jpg');
+  background-repeat: no-repeat;
 }
 
 #evaluation-form {
